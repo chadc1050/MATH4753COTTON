@@ -1,6 +1,6 @@
 #' @title my first function
 #'
-#' @param x A vector of quantatative data
+#' @param x A vector of quantitative data
 #'
 #' @return A vector of squared components
 #' @export

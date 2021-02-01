@@ -11,3 +11,4 @@ Encoding: UTF-8
 LazyData: true
 URL: https://github.com/chadc1050/MATH4753COTTON
 BugReports: https://github.com/chadc1050/MATH4753COTTON/issues
+RoxygenNote: 7.1.1

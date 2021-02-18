@@ -16,5 +16,5 @@ A vector of squared components
 my first function
 }
 \examples{
-y < 1:10; myfirstfun(y)
+y <- 1:10; myfirstfun(y)
 }

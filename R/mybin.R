@@ -16,4 +16,5 @@ mybin <- function(iter, n, p) {
     sam.mat[,i] = sample(c(1,0), n, replace = TRUE, prob = c(p, 1 - p))
     succ[i] = sum(sam.mat[,i])
   }
+  return(succ)
 }

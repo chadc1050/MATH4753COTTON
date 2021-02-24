@@ -16,7 +16,7 @@ myhyper(iter, N, r, n)
 \item{n}{Number of elements drawn}
 }
 \value{
-A barplot of the hypergeometric simulation and a probability table
+A table of the simulated successes
 }
 \description{
 myhyper

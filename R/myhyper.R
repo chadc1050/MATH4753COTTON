@@ -5,7 +5,7 @@
 #' @param r Number of successes in N elements
 #' @param n Number of elements drawn
 #'
-#' @return A barplot of the hypergeometric simulation and a probability table
+#' @return A table of the simulated successes
 #' @export
 
 myhyper = function(iter, N, r, n){
@@ -16,7 +16,6 @@ myhyper = function(iter, N, r, n){
     succ[i] = sum(sam.mat[,i])
   }
   succ.tab = table(factor(succ, levels = 0:n))
-  hyperplot <- barplot(succ.tab / (iter), col = "light green", main = "Hypergeometric Simulation", xlab = "Number of successes")
-  tab <- succ.tab / iter
-  return(hyperplot, tab)
+  tab <- succ.tab
+  return(tab)
 }
